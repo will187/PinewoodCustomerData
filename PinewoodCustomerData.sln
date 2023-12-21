@@ -3,9 +3,39 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{08CDB8D3-63F6-49D8-81F2-C4EF79E31B8A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{66C4D5E4-D2EC-45A2-A944-C33C98134C10}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{331FD5E3-68B5-444E-8969-335ACCE4AC96}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{06EED86F-CBA7-4125-A371-9CD5BC530525}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{4A0D4374-7523-44BA-B18E-342EE2BBE853}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{2BBDBBCB-320A-4D04-A912-D019026352F6}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A0D4374-7523-44BA-B18E-342EE2BBE853}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A0D4374-7523-44BA-B18E-342EE2BBE853}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A0D4374-7523-44BA-B18E-342EE2BBE853}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A0D4374-7523-44BA-B18E-342EE2BBE853}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BBDBBCB-320A-4D04-A912-D019026352F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BBDBBCB-320A-4D04-A912-D019026352F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BBDBBCB-320A-4D04-A912-D019026352F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BBDBBCB-320A-4D04-A912-D019026352F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4A0D4374-7523-44BA-B18E-342EE2BBE853} = {08CDB8D3-63F6-49D8-81F2-C4EF79E31B8A}
+		{2BBDBBCB-320A-4D04-A912-D019026352F6} = {08CDB8D3-63F6-49D8-81F2-C4EF79E31B8A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7013DD57-774F-4D88-B100-E76BFDFB9C5B}
